@@ -2,6 +2,9 @@ body{
     margin: 0px;
     background: #ffffff;
 }
+
+/*section-one styles*/
+
 .first-section{
     background: url("images/donation2.jpg") no-repeat;
     background-size: cover;
@@ -20,10 +23,15 @@ body{
 a{
     text-decoration: none;
     border: 1px solid rgb(230, 42, 42);
+    border-radius: 5px;
     padding: 10px;
+
     color: rgb(241, 237, 237);
     background-color: rgb(240, 120, 7);
 }
+
+/*second-section start styling*/
+
 .second-section{
     padding-top: 40px;
     padding-bottom: 50px;
@@ -31,12 +39,17 @@ a{
 .donate-today{
     text-align: center;
 }
-
+.donate-today > h1{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    ;
+}
+.span-tag{
+    padding: 45px;
+}
 span{
     padding: 30px;
     background-color: rgb(240, 232, 232);  
     border: 1px solid white;
-    display: inline-block;
     margin-right: 5px;
 }
 #focus{
