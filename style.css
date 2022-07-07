@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    background: #ffffff;
+}
+.first-section{
+    background: url("images/donation2.jpg") no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.header > h1{
+    font-size: 60px;
+    color: rgb(226, 11, 93);
+}
+.header > p{
+    color: rgb(26, 231, 26);  
+}
+a{
+    text-decoration: none;
+    border: 1px solid rgb(230, 42, 42);
+    padding: 10px;
+    color: rgb(241, 237, 237);
+    background-color: rgb(240, 120, 7);
+}
+.second-section{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.donate-today{
+    text-align: center;
+}
