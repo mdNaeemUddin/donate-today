@@ -41,7 +41,8 @@ a{
 }
 .donate-today > h1{
     font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
 }
 .span-tag{
     padding: 45px;
@@ -56,7 +57,7 @@ span{
     border: 1px solid hsl(0, 93%, 54%);
     background-color: rgb(252, 217, 217);
 }
-input{
+.input-style{
     border: none;
     border-bottom: 1px solid black;
     margin-bottom: 30px;
@@ -70,6 +71,10 @@ input{
 .third-section{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#increase-size{
+    font-size: 30px;
 }
 .divide{
     display: flex;
@@ -91,6 +96,29 @@ input{
 }
 
 
+/*fifth-section styling start*/
+.fifth-section{
+    text-align: center;
+}
+form{
+    border: 1px solid #ffffff;
+    background-color:rgb(248, 232, 210);
+    margin: 30px 350px 75px;
+    padding: 70px;
+}
+#new-input-style{
+    text-align: left;
+    border: none;
+    background-color: rgb(182, 182, 177);
+    padding: 5px;
+}
+#new-input-style-two{
+    text-align: center;
+    border: none;
+    color: white;
+    background-color: red;
+    padding: 5px;
+}
 
 /*footer part start styling*/
 footer{
