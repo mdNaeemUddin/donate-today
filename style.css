@@ -31,3 +31,23 @@ a{
 .donate-today{
     text-align: center;
 }
+
+span{
+    padding: 30px;
+    background-color: rgb(240, 232, 232);  
+    border: 1px solid white;
+    display: inline-block;
+    margin-right: 5px;
+}
+#focus{
+    border: 1px solid hsl(0, 93%, 54%);
+    background-color: rgb(252, 217, 217);
+}
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    width: 50%;
+    text-align: center;
+    padding: 7px;
+}
