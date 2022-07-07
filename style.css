@@ -15,11 +15,11 @@ body{
 
 .header > h1{
     font-size: 75px;
-    color: #ff0000;
+    color: red;
     font-weight: 900;
 }
 .header > p{
-    color: yellow;
+    color: rgb(111, 12, 240);
     font-size: 25px; 
     font-weight: bold;
     font-style: italic;
@@ -27,12 +27,12 @@ body{
 }
 a{
     text-decoration: none;
-    border: 1px solid rgb(39, 209, 33);
+    border: 1px solid rgb(219, 235, 77);
     border-radius: 7px;
     padding: 15px;
 
-    color: rgb(235, 232, 232);
-    background-color: rgb(95, 14, 226);
+    color: rgb(22, 20, 20);
+    background-color: rgb(126, 214, 12);
     font-weight: bold;
 }
 
@@ -127,34 +127,13 @@ span{
     background-color: aqua;
     text-align: justify;
 }
-/*
-#four-width{
-    max-width: 50%;
-}
-#four-width2{
-    max-width: 50%;
-}
-input{
-    width: 52%;
-} */
+
 button{
     text-align: center;
     position: relative;
-    left: 135px;
+    left: 105px;
 }
-/*
-#relative{
-    position: relative;
-}
-textarea{
-    position: absolute;
-}
-.fixed{
-    position: relative;
-    top: 65px;
-    left: 450px;
-}
-*/
+
 /*fifth-section styling start*/
 .fifth-section{
     text-align: center;
