@@ -8,33 +8,39 @@ body{
 .first-section{
     background: url("images/donation2.jpg") no-repeat;
     background-size: cover;
-    padding-top: 40px;
-    padding-bottom: 150px;
+    padding-top: 65px;
+    padding-bottom: 185px;
     text-align: center;
 }
 
 .header > h1{
-    font-size: 60px;
-    color: rgb(226, 11, 93);
+    font-size: 75px;
+    color: #ff0000;
+    font-weight: 900;
 }
 .header > p{
-    color: rgb(26, 231, 26);  
+    color: yellow;
+    font-size: 25px; 
+    font-weight: bold;
+    font-style: italic;
+    padding: 50px;
 }
 a{
     text-decoration: none;
-    border: 1px solid rgb(230, 42, 42);
-    border-radius: 5px;
-    padding: 10px;
+    border: 1px solid rgb(39, 209, 33);
+    border-radius: 7px;
+    padding: 15px;
 
-    color: rgb(241, 237, 237);
-    background-color: rgb(240, 120, 7);
+    color: rgb(235, 232, 232);
+    background-color: rgb(95, 14, 226);
+    font-weight: bold;
 }
 
 /*second-section start styling*/
 
 .second-section{
     padding-top: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 70px;
 }
 .donate-today{
     text-align: center;
@@ -43,6 +49,9 @@ a{
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
+}
+#para1{
+    padding: 5px 45px;
 }
 .span-tag{
     padding: 45px;
@@ -70,11 +79,14 @@ span{
 
 .third-section{
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
-
+#para3{
+    padding: 0px 30px;
+}
 #increase-size{
     font-size: 30px;
+    font-style: bold;
 }
 .divide{
     display: flex;
@@ -86,7 +98,10 @@ span{
     background-color:rgb(243, 203, 152);
     margin-right: 10px;
     text-align: left;
-    padding: 10px;
+    padding: 20px;
+}
+.para2{
+    text-align: justify;
 }
 .one{
     background-color: rgb(208, 240, 240);
@@ -129,6 +144,7 @@ footer{
 .footer-section{
     padding: 20px 0px;
 }
-.first-section > h1{
+.title{
     font-family: 'The Nautigal', cursive;
+    color:#b41515;
 }
